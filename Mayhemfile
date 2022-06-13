@@ -1,0 +1,7 @@
+project: binder
+target: binder
+cmds:
+  - cmd: /usr/local/bin/binder /test.hpp
+    filepath: /test.hpp
+    env:
+      DISABLE_SMOKETEST: '1'
